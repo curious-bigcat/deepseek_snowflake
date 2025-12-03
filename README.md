@@ -35,10 +35,10 @@ We create a compute pool that specifies GPU resources for our AI models.
 
 ```sql
 -- Create Compute Pool for GPU Resources
-CREATE COMPUTE POOL GPU_NV_S
+CREATE COMPUTE POOL GPU_NV_M
   MIN_NODES = 1
   MAX_NODES = 4
-  INSTANCE_FAMILY = GPU_NV_S;
+  INSTANCE_FAMILY = GPU_NV_M;
 ```
 
 ### Setting Up Storage and Networking
